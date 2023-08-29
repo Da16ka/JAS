@@ -1,5 +1,8 @@
-.body{
-    background-color: blue;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #062929;
   }
   
   .dashboard {
@@ -18,7 +21,7 @@
     grid-column: 2 / span 3;
   }
   .dashboard-card {
-    background: rgb(65, 247, 177);
+    background: rgb(58, 183, 255);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 10px;
