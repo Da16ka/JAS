@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #062929;
+  font-family: 'Century Gothuic';
+  margin: 0px;
+  padding: 0px;
+  background-color: #48c5ff;
   }
   
   .dashboard {
@@ -21,7 +21,7 @@ body {
     grid-column: 2 / span 3;
   }
   .dashboard-card {
-    background: rgb(58, 183, 255);
+    background: #bbe6e6;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 10px;
@@ -38,16 +38,16 @@ body {
   
   /* Fonts and colors */
   .dashboard h2 {
-    font-size: 20px;
+    font-size: 40px;
   }
   .dashboard h3 {
     color: #676d6b;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 15px;
   }
   .dashboard p {
     color: rgba(0, 0, 0, 0.5);
-    font-size: 16px;
+    font-size: 20px;
   }
   .dashboard img {
     border-radius: 50%;
@@ -60,3 +60,31 @@ body {
   .main p {
     margin-bottom: 30px;
   }
+
+  header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(70, 157, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+ 
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
